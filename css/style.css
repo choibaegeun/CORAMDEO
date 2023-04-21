@@ -1,7 +1,7 @@
 @charset 'UTF-8';
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Play:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
-html, body, button, input, select, textarea{font-family:'Roboto', 'Noto Sans KR', Tahoma, Geneva, sans-serif;}
+html, body, button, input, select, text{font-family:'Roboto', 'Noto Sans KR', Tahoma, Geneva, sans-serif;}
 html, body {
     font-weight: 400;
     font-size: 15px;
