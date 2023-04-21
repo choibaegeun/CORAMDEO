@@ -53,19 +53,6 @@ header {
     box-sizing: border-box;
 }
 
-.main-menu::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 0;
-    background: rgba(0,0,0,0.5);
-    opacity: 0;
-    z-index: -1;
-}
-
 .main-menu .inner1 {
     display: flex;
     justify-content: space-between;
@@ -77,7 +64,6 @@ header {
 }
 
 .main-menu h1 a img {
-    vertical-align: middle;
     max-width: 100%;
 }
 
@@ -104,16 +90,6 @@ header {
     width: 25%;
     height: 100%;
     text-align: center;
-}
-
-.main-menu nav .gnb li::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    width: 0;
-    opacity: 0;
-    border-bottom: 3px solid #fff;
 }
 
 .main-menu nav .gnb li a {
