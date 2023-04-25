@@ -586,6 +586,11 @@ footer {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    transition: all .8s;
+}
+
+.footer-inner:hover .bg {
+    transform: scale(1.05);
 }
 
 .footer-inner h4 {

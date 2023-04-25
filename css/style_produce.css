@@ -15,6 +15,13 @@ html, body {
     padding: 0;
 }
 
+html, body, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, big, cite, code, del, dfn, em, font, img, ins, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, ul, ol, li, dl, dt, dd, table, caption, tbody, tfoot, thead, tr, th, td, fieldset, form, label, legend, input, button, textarea, select {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 a {
     text-decoration: none;
 }
@@ -292,24 +299,33 @@ header nav .gnb li ul li + li {
 }
 
 .content2 .inner .box {
-    max-width: 1380px;
-    margin: 0 auto;
+    max-width: 1380px; 
+    margin: 0 auto; 
     padding: 50px 0 200px;
 }
 
 .content2 .inner .box ul {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 8px;
+    display: flex; 
+    flex-wrap: wrap; 
+    margin: 0 -25px;
 }
 
 .content2 .inner .box ul li {
+    width: 33.333333%;
     padding: 0 25px 60px;
 }
 
+.content2 .inner .box ul li .img {
+    overflow: hidden;
+}
+
 .content2 .inner .box ul li img {
-    width: 404.66px;
-    height: 404.66px;
+    width: 100%; 
+    transition: all .4s;
+}
+
+.content2 .inner .box ul li:hover .img img { 
+    transform: scale(1.05); 
 }
 
 .content2 .inner .box ul li .txt {
@@ -425,6 +441,11 @@ footer {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    transition: all .8s;
+}
+
+.footer-inner:hover .bg {
+    transform: scale(1.05);
 }
 
 .footer-inner h4 {

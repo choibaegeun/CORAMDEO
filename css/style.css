@@ -434,6 +434,11 @@ header nav .gnb li ul li + li {
 .content2 .inner .content-box ul li .items .img img {
     vertical-align: middle;
     max-width: 100%;
+    transition: all .4s;
+}
+
+.content2 .inner .content-box ul li .items:hover .img img {
+    transform: scale(1.05);
 }
 
 .content2 .inner .content-box ul li .items .txt {
@@ -456,6 +461,11 @@ header nav .gnb li ul li + li {
     width: 30px;
     height: 14px;
     background: url(../image/main-sec02-arrow.png) 50% no-repeat;
+    transition: all .4s ease-in-out;
+}
+
+.content2 .inner .content-box ul li .items:hover .arrow { 
+    transform: translateX(50%);
 }
 
 .content2 .inner .content-box ul li .items .arrow span {
@@ -525,7 +535,12 @@ header nav .gnb li ul li + li {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
+    transition: all 0.8s;
 }
+.content4 .inner .box:hover .bg { 
+    transform: scale(1.03); 
+}
+
 
 .content4 .inner .box .txt {
     padding: 130px 0;
@@ -560,6 +575,11 @@ header nav .gnb li ul li + li {
     margin-left: 10px;
     background: url(../image/main-sec02-arrow.png) 50% no-repeat;
     vertical-align: baseline;
+    transition: all .4s ease-in-out;
+}
+
+.content4 .inner .box .txt a:hover::after { 
+    transform: translateX(30%);
 }
 
 /*footer*/
@@ -586,6 +606,11 @@ footer {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    transition: all .8s;
+}
+
+.footer-inner:hover .bg {
+    transform: scale(1.05);
 }
 
 .footer-inner h4 {
