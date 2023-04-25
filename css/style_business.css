@@ -298,6 +298,8 @@ header nav .gnb li ul li + li {
     overflow: hidden;
 }
 
+
+/*box1*/
 .content2 .box {
     margin-top: -52px;
 }
@@ -341,6 +343,8 @@ header nav .gnb li ul li + li {
     line-height: 1.75;
 }
 
+
+/*box2*/
 .content2 .box .box2 .top {
     height: 450px;
 }
@@ -398,6 +402,8 @@ header nav .gnb li ul li + li {
     padding-bottom: 0;
 }
 
+
+/*box3*/
 .content2 .box .box3 .top {
     height: 450px;
 }
@@ -481,6 +487,8 @@ header nav .gnb li ul li + li {
     font-weight: 400;
 }
 
+
+/*box4*/
 .content2 .box .box4 .top {
     height: 450px;
 }
@@ -503,6 +511,55 @@ header nav .gnb li ul li + li {
 
 .content2 .box .box4 .txtbox .sub-tit {
     font-size: 35px;
+    line-height: 1.75;
+    box-sizing: border-box;
+}
+
+.content2 .box .box4 .txtbox .map {
+    padding: 10px 0 20px;
+    overflow: hidden;
+}
+
+.content2 .box .box4 .txtbox .map img {
+    vertical-align: middle;
+    max-width: 100%;
+}
+
+.content2 .box .box4 .txtbox ul {
+    display: flex;
+}
+
+.content2 .box .box4 .txtbox ul li {
+    width: calc(100% / 3);
+    text-align: center;
+}
+
+.content2 .box .box4 .txtbox ul li + li {
+    border-left: 2px solid #d5d5d5;
+}
+
+.content2 .box .box4 .txtbox ul li .item p {
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 1.75;
+}
+
+.content2 .box .box4 .txtbox ul li .item p:nth-child(2) {
+    font-size: 23px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.content2 .box .box4 .txtbox ul li .item p:nth-child(3) {
+    font-size: 18px;
+    color: #666;
+    padding: 5px 0 20px;
+    text-transform: uppercase;
+}
+
+.content2 .box .box4 .txtbox ul li .item img {
+    vertical-align: middle;
+    max-width: 100%;
 }
 
 /*footer*/
