@@ -304,13 +304,13 @@ header nav .gnb li ul li + li {
     padding: 50px 0 200px;
 }
 
-.content2 .inner .box ul {
+.content2 .inner .box > ul {
     display: flex; 
     flex-wrap: wrap; 
     margin: 0 -25px;
 }
 
-.content2 .inner .box ul li {
+.content2 .inner .box > ul li {
     width: 33.333333%;
     padding: 0 25px 60px;
 }
@@ -339,23 +339,23 @@ header nav .gnb li ul li + li {
 }
 
 /*pagnav*/
-.content2 .inner .box .pagnav {
+.pagnav {
     margin: 30px 0 0;
     text-align: center;
 }
 
-.content2 .inner .box .pagnav ul {
+.pagnav .pag {
     display: flex;
     justify-content: center;
     border-radius: 0;
 }
 
-.content2 .inner .box .pagnav ul li {
+.pagnav .pag li {
     overflow: hidden;
     margin: 0 2px;
 }
 
-.content2 .inner .box .pagnav ul li a {
+.pagnav .pag li a {
     display: block;
     width: 35px;
     height: 35px;
@@ -365,7 +365,7 @@ header nav .gnb li ul li + li {
     border: 1px solid rgba(102,102,102,0.5);
 }
 
-.content2 .inner .box .pagnav ul .active a {
+.pagnav .pag .active a {
     color: #fff;
     background-color: #000;
 }
