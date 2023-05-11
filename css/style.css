@@ -15,6 +15,10 @@ html, body {
     padding: 0;
 }
 
+html, header, body {
+    min-width: 1300px;
+}
+
 a {
     text-decoration: none;
 }
@@ -39,6 +43,7 @@ header, footer, section, article, aside, nav, div, hgroup, details, menu, figure
 
 :before, :after{
     vertical-align:middle;
+    transition: .3s ease-in-out;
 }
 
 /*header*/
@@ -220,7 +225,7 @@ header nav .gnb li ul li + li {
 
 .main .inner .main-txt span {
     display: inline-block;
-    animation: mainTxt 1s ease-in-out;
+    animation: mainTxt 1s ease-in-out both;
 }
 
 @keyframes mainTxt {
@@ -325,7 +330,7 @@ header nav .gnb li ul li + li {
     text-align: center;
 }
 
-.content1 .inner h3 {
+.content1 .inner .txt h3 {
     font-size: 50px;
 }
 
